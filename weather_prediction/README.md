@@ -76,7 +76,7 @@ reproducible.
 
 ## Model comparison
 
-![Model comparison](outputs/model_comparison.png)
+![Model comparison](model_comparison.png)
 
 Every model beats the naive majority baseline, and gradient boosting clearly
 outperforms the linear model. GridSearchCV then adds a final increment on top of
@@ -87,9 +87,9 @@ learning_rate=0.1, iterations=400`.
 
 ## Tuned model performance
 
-![ROC and Precision-Recall curves](outputs/roc_pr_curves.png)
+![ROC and Precision-Recall curves](roc_pr_curves.png)
 
-![Confusion matrix](outputs/confusion_matrix.png)
+![Confusion matrix](confusion_matrix.png)
 
 The ROC-AUC of 0.90 shows strong separation between rainy and dry days. The
 precision-recall view is the more honest one for this imbalanced task: average
@@ -107,7 +107,7 @@ day. Wind gust speed, sunshine hours and cloud cover follow. These are
 physically sensible relationships, which is a good sign the model is learning
 real weather patterns rather than artefacts.
 
-![Feature importance](outputs/feature_importance.png)
+![Feature importance](feature_importance.png)
 
 ---
 
