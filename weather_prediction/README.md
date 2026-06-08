@@ -99,7 +99,7 @@ precision is 0.77, far above the 0.22 base rate.
 
 ## Explainability (SHAP)
 
-![SHAP summary](outputs/shap_summary.png)
+![SHAP summary](shap_summary.png)
 
 High afternoon humidity (`Humidity3pm`) is the single strongest signal for rain,
 while high afternoon pressure (`Pressure3pm`) pushes predictions toward a dry
