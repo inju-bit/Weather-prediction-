@@ -1,0 +1,40 @@
+{
+  "dataset": "Rain in Australia (BOM / Kaggle)",
+  "n_samples": 142193,
+  "positive_rate_rain": 0.2242,
+  "best_params": {
+    "depth": 8,
+    "learning_rate": 0.1,
+    "iterations": 400
+  },
+  "models": [
+    {
+      "model": "Majority baseline",
+      "accuracy": 0.7758,
+      "roc_auc": 0.5,
+      "pr_auc": 0.2242,
+      "f1_rain": 0.0
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.85,
+      "roc_auc": 0.8753,
+      "pr_auc": 0.7114,
+      "f1_rain": 0.6075
+    },
+    {
+      "model": "CatBoost (default)",
+      "accuracy": 0.8631,
+      "roc_auc": 0.902,
+      "pr_auc": 0.7676,
+      "f1_rain": 0.6518
+    },
+    {
+      "model": "CatBoost (tuned)",
+      "accuracy": 0.8662,
+      "roc_auc": 0.9039,
+      "pr_auc": 0.7718,
+      "f1_rain": 0.6593
+    }
+  ]
+}
